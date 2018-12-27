@@ -1,0 +1,8 @@
+CREATE TABLE `urlkey` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `url` varchar(6) CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NOT NULL,
+  `used` int(1) DEFAULT NULL,
+  PRIMARY KEY (`id`) USING BTREE,
+  UNIQUE KEY `key` (`url`)
+) ENGINE=InnoDB AUTO_INCREMENT=12100005 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+

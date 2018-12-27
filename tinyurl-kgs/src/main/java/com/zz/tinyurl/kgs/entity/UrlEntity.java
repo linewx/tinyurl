@@ -1,4 +1,4 @@
-package com.zz.tinyurl.entity;
+package com.zz.tinyurl.kgs.entity;
 
 import javax.persistence.*;
 

@@ -1,4 +1,4 @@
-package com.zz.tinyurl;
+package com.zz.tinyurl.kgs;
 
 import java.security.SecureRandom;
 import java.util.Locale;
